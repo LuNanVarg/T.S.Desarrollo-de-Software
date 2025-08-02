@@ -38,7 +38,18 @@ Forma parte de mi recorrido en la **Tecnicatura Superior en Desarrollo de Softwa
 --- 
 
 ## 🧰 Herramientas y tecnologías utilizadas
-<p align="center"> &emsp; <img alt="Google Colab" src="https://img.shields.io/badge/Google_Colab-Interactive-yellow?logo=googlecolab"> &emsp; <img alt="Python" src="https://img.shields.io/badge/Python-3.10-blue?logo=python"> &emsp; <img alt="Pandas" src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas"> &emsp; <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-Visualization-11557c?logo=matplotlib"> &emsp; <img alt="Seaborn" src="https://img.shields.io/badge/Seaborn-Statistical%20Graphics-4c72b0?logo=python"> </p>
+<p align="center"> 
+  &emsp; 
+  <img alt="Google Colab" src="https://img.shields.io/badge/Google_Colab-Interactive-yellow?logo=googlecolab"> 
+  &emsp; 
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10-blue?logo=python"> 
+  &emsp; 
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas"> 
+  &emsp; 
+  <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-Visualization-11557c?logo=matplotlib"> 
+  &emsp; 
+  <img alt="Seaborn" src="https://img.shields.io/badge/Seaborn-Statistical%20Graphics-4c72b0?logo=python"> 
+</p>
 
 --- 
 
@@ -51,7 +62,7 @@ Cada simulación permitió aplicar los contenidos de forma práctica con datos r
 
 ---
 
-## 📂 Estructura del repositorio (sugerida)
+## 📂 Estructura del repositorio
 ```
 📁 estadistica-y-probabilidades/
 ├── 📚 apuntes/
@@ -101,3 +112,4 @@ Como proyecto personal, me gustaría realizar un estudio sobre enfermedades seg�
 Incluso, me encantaría volver a cursar esta materia en algún momento: fue una experiencia que me motivó, me desafió y me dejó con muchas ganas de seguir aprendiendo.
 
 ----
+
