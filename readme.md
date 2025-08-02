@@ -1,149 +1,55 @@
-# 🛍️ Sistema de Inventario y Gestión de Clientes
+# 💻 Tecnicatura Superior en Desarrollo de Software
 
-Este es un proyecto de Python con SQLite, que permite administrar clientes y productos commo agregar, modificar, eliminar y mostrar los almacenados en una base de datos.
+Este repositorio forma parte de mi recorrido en la **Tecnicatura Superior en Desarrollo de Software**, donde voy documentando trabajos prácticos, proyectos, actividades y apuntes de cada una de las materias cursadas.
 
-## 📁 Estructura del Proyecto
-mi_libreria/
-├── clientes.py           # Lógica para gestionar clientes (alta, baja, modificación)
-├── productos.py          # Lógica para gestionar productos (categorías, stock, reportes)
-├── ayuda.py              # Funciones auxiliares o de utilidad (colores, validaciones, etc.)
-├── main.py               # Menú principal y navegación de opciones
-├── clientes.json         # Backup o precarga de datos de clientes
-├── productos.json        # Backup o precarga de datos de productos
-├── libreria_reg.db       # Base de datos SQLite con tablas: clientes, productos, categorias
-├── README.md             # Documentación principal del proyecto (explicación general)
-└── docs/                 # Documentación automática generada con Sphinx
-    ├── source/
-    │   ├── conf.py       # Configuración de Sphinx
-    │   ├── index.rst     # Página principal de documentación
-    │   └── *.rst         # Archivos adicionales generados con `sphinx-apidoc`
-    └── build/            # Carpeta generada automáticamente con la salida HTML
+Mi objetivo es reflejar no solo el contenido aprendido, sino también mi evolución como estudiante y futura profesional del mundo IT.
 
-## Requisitos
+---
 
-- Python 3.x
-- Tkinter (incluido en la instalación estándar de Python)
-- SQLite (incluido en la instalación estándar de Python)
+## 🧠 Materias incluidas
 
-## Instalación
+📁 Cada carpeta representa una materia, con sus respectivos ejercicios prácticos, parciales, entregas y documentación:
 
-1. Clona o descarga este repositorio en tu máquina local.
-2. Asegúrate de tener Python 3.x instalado en tu sistema.
-3. No se requieren pasos de instalación adicionales, ya que el proyecto utiliza bibliotecas estándar de Python.
+- `📂 Adm-DB-Practica`: Prácticas de SQL y MySQL de la materia *Administración de Bases de Datos*
+- `📂 Programación`: Algoritmos, estructuras de control, funciones y ejercicios introductorios
+- `📂 Lógica Computacional`: Tablas de verdad, lógica proposicional y ejercicios con pseudocódigo
+- `📂 Análisis Matemático`: Resolución de problemas matemáticos aplicados al software
+- `📂 Estadística y Probabilidades`: Actividades, ejercicios y análisis estadístico aplicado al desarrollo de software
 
-## ▶️ Cómo Ejecutar
+> ⚠️ *Algunas materias aún están en curso, por lo que el contenido se irá actualizando periódicamente.*
 
-1. Ejecuta el archivo `main.py` para iniciar la aplicación.
-2. La aplicación abrirá una ventana con las opciones disponibles.
-3. En la pestaña "Agregar Producto", puedes ingresar los detalles del nuevo producto y hacer clic en el botón "Agregar Producto" para agregarlo al inventario.
-4. En la pestaña "Modificar Producto", puedes seleccionar un producto existente de la lista desplegable, modificar sus detalles y hacer clic en el botón "Modificar Producto" para guardar los cambios.
-5. También puedes eliminar productos desde la pestaña "Modificar Producto" seleccionando un producto y haciendo clic en el botón "Eliminar Producto".
-6. El botón "Mostrar Informe" en la ventana principal te permite ver un informe de inventario con detalles de todos los productos almacenados.
+---
 
-## Lógica de Funcionamiento
-1. main.py – Menú Principal:
-* Muestra un menú con 3 opciones:
-* Gestionar Clientes
-* Gestionar Productos
-* Salir
-- Usa match para dirigir según la opción ingresada.
-- Cada opción llama a una función del módulo correspondiente.
+## 🧰 Herramientas y tecnologías utilizadas
 
-### 2. clientes.py
-### Funciones principales:
-    - agregar_cliente_sql(): Pide nombre, apellido, email, guarda en DB.
-    - ver_clientes_sql(): Muestra todos los clientes registrados.
-    - buscar_cliente_por__id_(): Busca por id .
-    - eliminar_cliente_por_id(): Elimina el cliente por id.
+<p align="center">
+  &emsp;
+  <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=plastic&logo=python&logoColor=white"></a>
+  &emsp;
+  <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1.svg?style=plastic&logo=mysql&logoColor=white"></a>
+  &emsp;
+  <a href="#"><img alt="SQLite" src="https://img.shields.io/badge/SQLite-07405E.svg?style=plastic&logo=sqlite&logoColor=white"></a>
+  &emsp;
+  <a href="#"><img alt="C#" src="https://img.shields.io/badge/CSharp-239120.svg?style=plastic&logo=c-sharp&logoColor=white"></a>
+  &emsp;
+  <a href="#"><img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-5C2D91.svg?style=plastic&logo=visual-studio&logoColor=white"></a>
+  &emsp;
+  <a href="#"><img alt="VSCode" src="https://img.shields.io/badge/VSCode-007ACC.svg?style=plastic&logo=visual-studio-code&logoColor=white"></a>
+  &emsp;
+  <a href="#"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717.svg?style=plastic&logo=github&logoColor=white"></a>
+</p>
 
-### Validaciones:
-- Se valida que los campos no estén vacíos y que el email sea válido.
-- Uso de datetime para guardar la fecha de registro.
-3. productos.py
-### Funciones principales:
-- agregar_producto_sql(): Crea un nuevo producto con nombre, precio, stock y categoría.
-- consultar_productos_sql(): Lista todos los productos disponibles.
-- buscar_producto_por_id(): Busca un producto por su ID.
-- actualizar_producto_sql(): Permite modificar nombre, precio o stock.
-- eliminar_producto_sql(): Elimina producto por ID.
-- reporte_stock_bajo(): Muestra productos con stock bajo un límite ingresado.
+---
 
-### Validaciones:
-* Se valida que el precio sea un número positivo.
-* El stock no puede ser negativo.
-* Se verifica que la categoría seleccionada exista.
+## ✍️ Sobre mí
 
-## 💾Base de Datos
+**Nancy Vargas**  
+🎓 Estudiante de la Tecnicatura Superior en Desarrollo de Software  
+💡 Apasionada por la programación, el testing QA y el diseño web  
+📍 Villa Urquiza, CABA  
+🌐 [LinkedIn](https://www.linkedin.com/in/lunanvarg/) | 📫 lunanvarg@gmail.com
 
-Nombre del archivo: libreria_reg.db
-*Tablas:*
-clientes
-CREATE TABLE IF NOT EXISTS clientes (
-    cliente_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nombre TEXT NOT NULL,
-    apellido TEXT NOT NULL,
-    email TEXT NOT NULL UNIQUE,
-    fecha_registro TEXT NOT NULL
-);
+---
 
-productos
-CREATE TABLE IF NOT EXISTS productos (
-    producto_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nombre TEXT NOT NULL,
-    precio REAL NOT NULL,
-    stock INTEGER NOT NULL,
-    categoria_id INTEGER,
-    FOREIGN KEY (categoria_id) REFERENCES categorias(categoria_id)
-);
-
-categorias
-CREATE TABLE IF NOT EXISTS categorias (
-    categoria_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nombre TEXT NOT NULL
-);
-
-## Ejemplo de Uso
-### 📋 MENÚ PRINCIPAL
-1. Gestionar Clientes
-2. Gestionar Productos
-3. Salir
-
-Selecciona una opción (1-3): 2
-
-📦 Menú Productos
-1. Agregar producto
-2. Ver productos
-...
-Selecciona una opción (1-7): 6
-📉 Ingresá el límite de stock: 5
-
-➡️ Muestra todos los productos con stock menor o igual a 5
-
-## 🐞 Errores Comunes y Solución
-|    Error           |    Causa               |       Solución                       |
-| -------------------| -----------------------| ------------------------------------ |
-| `AttributeError:   | Nombre de función mal  | Revisar nombres exactos              |
-|  module has no     | llamado.               |  en el archivo py                    |
-|  attribute`        |                        |                                      |
-| `sqlite3.Operation`| El alias o nombre de   | Verificar nombres reales en la       |
-| `alError: no such` | columna/tablas         | base de datos                        |
-| `column`           |                        |                                      |
-
-
-## ✅ Próximas Mejoras
-
-- Agregar interfaz gráfica (Tkinter o PyQt).
-- Conexión con API REST.
-- Exportar reportes a CSV o Excel.
-
-## 📌 Consideraciones
-
-- El módulo se inicializa con init(autoreset=True) para usar colorama en la consola.
-- Los datos también pueden persistirse en JSON como respaldo externo.
-- Las operaciones muestran mensajes amigables con íconos (como ✅, ❌, 📢).
-
-## 🙌 Agradecimientos
-
-Quiero agradecer especialmente a la profesora Griselda por su dedicación y guía constante a lo largo del curso, y a la tutora Erica, por su acompañamiento paciente y siempre estar dispuesta a ayudar.
-
-Este proyecto fue realizado como parte de mi formación y cada línea de código refleja el aprendizaje compartido en clase. ¡Gracias por motivarnos a seguir creciendo!
+> 🛠️ Este repositorio se actualiza a medida que avanzo en la carrera.  
+> ¡Gracias por pasar y ver mi progreso!
