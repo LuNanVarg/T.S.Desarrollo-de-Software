@@ -9,6 +9,7 @@ Forma parte de mi recorrido en la **Tecnicatura Superior en Desarrollo de Softwa
 ## 📅 Cronograma de contenidos y estructura
 
 🔹 **Bloque 1 - Probabilidades y Variables Aleatorias**
+
 **Posta 1:** Cálculo y estimación de probabilidades
 - 📘 Introducción a la probabilidad
 - 💻 `La_Paradoja_del_Cumpleaños.ipynb`
@@ -112,4 +113,5 @@ Como proyecto personal, me gustaría realizar un estudio sobre enfermedades seg�
 Incluso, me encantaría volver a cursar esta materia en algún momento: fue una experiencia que me motivó, me desafió y me dejó con muchas ganas de seguir aprendiendo.
 
 ----
+
 
