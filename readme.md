@@ -46,10 +46,10 @@ Mi objetivo es reflejar no solo el contenido aprendido, sino también mi evoluci
 **Nancy Vargas**  
 🎓 Estudiante de la Tecnicatura Superior en Desarrollo de Software  
 💡 Apasionada por la programación, el testing QA y el diseño web  
-📍 Villa Urquiza, CABA  
 🌐 [LinkedIn](https://www.linkedin.com/in/lunanvarg/) | 📫 lunanvarg@gmail.com
 
 ---
 
 > 🛠️ Este repositorio se actualiza a medida que avanzo en la carrera.  
 > ¡Gracias por pasar y ver mi progreso!
+
